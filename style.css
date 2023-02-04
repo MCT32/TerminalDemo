@@ -1,0 +1,69 @@
+:root {
+	--lime-green: #32cd30;
+	--pale-blue: #67A1A1;
+	--light-magenta: #ff80ff;
+	--magenta: #ff33ff;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.terminal {
+	margin: 0;
+	padding: 15px;
+	width: 100%;
+	min-height: 100vh;
+	box-sizing: border-box;
+	background-color: black;
+	color: white;
+	font-family: "Roboto Mono";
+}
+
+.user {
+	color: var(--lime-green);
+}
+
+.dir {
+	color: var(--pale-blue);
+}
+
+.text {
+	color: white;
+	font-family: "Roboto Mono Bold";
+}
+
+.dirlist {
+	color: var(--pale-blue);
+	font-family: "Roboto Mono Bold";
+}
+
+.script {
+	color: var(--lime-green);
+	font-family: "Roboto Mono Bold";
+}
+
+.acheivementdone {
+	color: var(--magenta);
+	font-family: "Roboto Mono Bold";
+}
+
+.acheivement {
+	color: var(--light-magenta);
+	font-family: "Roboto Mono Bold";
+}
+
+@font-face {
+	font-family: "Roboto Mono";
+	src: url("Roboto Mono Nerd Font Complete Mono.ttf");
+}
+
+@font-face {
+	font-family: "Roboto Mono Bold";
+	src: url("Roboto Mono Bold Nerd Font Complete Mono.ttf");
+}
+
+i {
+	font-style: normal;
+}
